@@ -9,113 +9,113 @@ const ROW_OFFSET = 105;
 
 const people = [
   {
-    name: "Anthony Alfidi",
+    name: 'Anthony Alfidi',
     bio:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi mauris, ornare vitae leo a, aliquet bibendum diam. Vestibulum eleifend nisi diam, nec ornare massa pharetra in. Praesent dictum felis dapibus tristique posuere. Phasellus consectetur neque condimentum leo porttitor, at pretium velit vulputate. Nam euismod nisi tincidunt libero consectetur, ut consectetur urna luctus. Quisque aliquam ante a urna hendrerit condimentum. Sed sed viverra ex, non aliquam ligula. Proin quam enim, placerat vel risus in, gravida venenatis lectus. Ut rutrum efficitur nibh ac ullamcorper. Maecenas mattis neque ac diam faucibus consectetur. Donec tristique elit lorem, eget tempus dolor rhoncus ut. Integer.",
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi mauris, ornare vitae leo a, aliquet bibendum diam. Vestibulum eleifend nisi diam, nec ornare massa pharetra in. Praesent dictum felis dapibus tristique posuere. Phasellus consectetur neque condimentum leo porttitor, at pretium velit vulputate. Nam euismod nisi tincidunt libero consectetur, ut consectetur urna luctus. Quisque aliquam ante a urna hendrerit condimentum. Sed sed viverra ex, non aliquam ligula. Proin quam enim, placerat vel risus in, gravida venenatis lectus. Ut rutrum efficitur nibh ac ullamcorper. Maecenas mattis neque ac diam faucibus consectetur. Donec tristique elit lorem, eget tempus dolor rhoncus ut. Integer.',
   },
   {
-    name: "William S. and Janice Anderson",
+    name: 'William S. and Janice Anderson',
     bio:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi mauris, ornare vitae leo a, aliquet bibendum diam. Vestibulum eleifend nisi diam, nec ornare massa pharetra in. Praesent dictum felis dapibus tristique posuere. Phasellus consectetur neque condimentum leo porttitor, at pretium velit vulputate. Nam euismod nisi tincidunt libero consectetur, ut consectetur urna luctus. Quisque aliquam ante a urna hendrerit condimentum. Sed sed viverra ex, non aliquam ligula. Proin quam enim, placerat vel risus in, gravida venenatis lectus. Ut rutrum efficitur nibh ac ullamcorper. Maecenas mattis neque ac diam faucibus consectetur. Donec tristique elit lorem, eget tempus dolor rhoncus ut. Integer.",
-    video: "https://www.youtube.com/watch?v=whJgPudKgE0",
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi mauris, ornare vitae leo a, aliquet bibendum diam. Vestibulum eleifend nisi diam, nec ornare massa pharetra in. Praesent dictum felis dapibus tristique posuere. Phasellus consectetur neque condimentum leo porttitor, at pretium velit vulputate. Nam euismod nisi tincidunt libero consectetur, ut consectetur urna luctus. Quisque aliquam ante a urna hendrerit condimentum. Sed sed viverra ex, non aliquam ligula. Proin quam enim, placerat vel risus in, gravida venenatis lectus. Ut rutrum efficitur nibh ac ullamcorper. Maecenas mattis neque ac diam faucibus consectetur. Donec tristique elit lorem, eget tempus dolor rhoncus ut. Integer.',
+    video: 'https://www.youtube.com/watch?v=whJgPudKgE0',
   },
   {
-    name: "Michael and Bonny Armacost",
-    video: "https://www.youtube.com/watch?v=pYfgeQyaxrg",
+    name: 'Michael and Bonny Armacost',
+    video: 'https://www.youtube.com/watch?v=pYfgeQyaxrg',
   },
   {
-    name: "David D. and Sherry Arnold",
+    name: 'David D. and Sherry Arnold',
     bio:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi mauris, ornare vitae leo a, aliquet bibendum diam. Vestibulum eleifend nisi diam, nec ornare massa pharetra in. Praesent dictum felis dapibus tristique posuere. Phasellus consectetur neque condimentum leo porttitor, at pretium velit vulputate. Nam euismod nisi tincidunt libero consectetur, ut consectetur urna luctus. Quisque aliquam ante a urna hendrerit condimentum. Sed sed viverra ex, non aliquam ligula. Proin quam enim, placerat vel risus in, gravida venenatis lectus. Ut rutrum efficitur nibh ac ullamcorper. Maecenas mattis neque ac diam faucibus consectetur. Donec tristique elit lorem, eget tempus dolor rhoncus ut. Integer.",
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi mauris, ornare vitae leo a, aliquet bibendum diam. Vestibulum eleifend nisi diam, nec ornare massa pharetra in. Praesent dictum felis dapibus tristique posuere. Phasellus consectetur neque condimentum leo porttitor, at pretium velit vulputate. Nam euismod nisi tincidunt libero consectetur, ut consectetur urna luctus. Quisque aliquam ante a urna hendrerit condimentum. Sed sed viverra ex, non aliquam ligula. Proin quam enim, placerat vel risus in, gravida venenatis lectus. Ut rutrum efficitur nibh ac ullamcorper. Maecenas mattis neque ac diam faucibus consectetur. Donec tristique elit lorem, eget tempus dolor rhoncus ut. Integer.',
   },
   {
-    name: "Jerome and Thao Dodson",
+    name: 'Jerome and Thao Dodson',
     bio:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi mauris, ornare vitae leo a, aliquet bibendum diam. Vestibulum eleifend nisi diam, nec ornare massa pharetra in. Praesent dictum felis dapibus tristique posuere. Phasellus consectetur neque condimentum leo porttitor, at pretium velit vulputate. Nam euismod nisi tincidunt libero consectetur, ut consectetur urna luctus. Quisque aliquam ante a urna hendrerit condimentum. Sed sed viverra ex, non aliquam ligula. Proin quam enim, placerat vel risus in, gravida venenatis lectus. Ut rutrum efficitur nibh ac ullamcorper. Maecenas mattis neque ac diam faucibus consectetur. Donec tristique elit lorem, eget tempus dolor rhoncus ut. Integer.",
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi mauris, ornare vitae leo a, aliquet bibendum diam. Vestibulum eleifend nisi diam, nec ornare massa pharetra in. Praesent dictum felis dapibus tristique posuere. Phasellus consectetur neque condimentum leo porttitor, at pretium velit vulputate. Nam euismod nisi tincidunt libero consectetur, ut consectetur urna luctus. Quisque aliquam ante a urna hendrerit condimentum. Sed sed viverra ex, non aliquam ligula. Proin quam enim, placerat vel risus in, gravida venenatis lectus. Ut rutrum efficitur nibh ac ullamcorper. Maecenas mattis neque ac diam faucibus consectetur. Donec tristique elit lorem, eget tempus dolor rhoncus ut. Integer.',
   },
   {
-    name: "Theodore L. Eliot, Jr.  and Patricia P. Eliot ",
+    name: 'Theodore L. Eliot, Jr.  and Patricia P. Eliot ',
     bio:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi mauris, ornare vitae leo a, aliquet bibendum diam. Vestibulum eleifend nisi diam, nec ornare massa pharetra in. Praesent dictum felis dapibus tristique posuere. Phasellus consectetur neque condimentum leo porttitor, at pretium velit vulputate. Nam euismod nisi tincidunt libero consectetur, ut consectetur urna luctus. Quisque aliquam ante a urna hendrerit condimentum. Sed sed viverra ex, non aliquam ligula. Proin quam enim, placerat vel risus in, gravida venenatis lectus. Ut rutrum efficitur nibh ac ullamcorper. Maecenas mattis neque ac diam faucibus consectetur. Donec tristique elit lorem, eget tempus dolor rhoncus ut. Integer.",
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi mauris, ornare vitae leo a, aliquet bibendum diam. Vestibulum eleifend nisi diam, nec ornare massa pharetra in. Praesent dictum felis dapibus tristique posuere. Phasellus consectetur neque condimentum leo porttitor, at pretium velit vulputate. Nam euismod nisi tincidunt libero consectetur, ut consectetur urna luctus. Quisque aliquam ante a urna hendrerit condimentum. Sed sed viverra ex, non aliquam ligula. Proin quam enim, placerat vel risus in, gravida venenatis lectus. Ut rutrum efficitur nibh ac ullamcorper. Maecenas mattis neque ac diam faucibus consectetur. Donec tristique elit lorem, eget tempus dolor rhoncus ut. Integer.',
   },
   {
-    name: "Walter Jared Frost",
+    name: 'Walter Jared Frost',
     bio:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi mauris, ornare vitae leo a, aliquet bibendum diam. Vestibulum eleifend nisi diam, nec ornare massa pharetra in. Praesent dictum felis dapibus tristique posuere. Phasellus consectetur neque condimentum leo porttitor, at pretium velit vulputate. Nam euismod nisi tincidunt libero consectetur, ut consectetur urna luctus. Quisque aliquam ante a urna hendrerit condimentum. Sed sed viverra ex, non aliquam ligula. Proin quam enim, placerat vel risus in, gravida venenatis lectus. Ut rutrum efficitur nibh ac ullamcorper. Maecenas mattis neque ac diam faucibus consectetur. Donec tristique elit lorem, eget tempus dolor rhoncus ut. Integer.",
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi mauris, ornare vitae leo a, aliquet bibendum diam. Vestibulum eleifend nisi diam, nec ornare massa pharetra in. Praesent dictum felis dapibus tristique posuere. Phasellus consectetur neque condimentum leo porttitor, at pretium velit vulputate. Nam euismod nisi tincidunt libero consectetur, ut consectetur urna luctus. Quisque aliquam ante a urna hendrerit condimentum. Sed sed viverra ex, non aliquam ligula. Proin quam enim, placerat vel risus in, gravida venenatis lectus. Ut rutrum efficitur nibh ac ullamcorper. Maecenas mattis neque ac diam faucibus consectetur. Donec tristique elit lorem, eget tempus dolor rhoncus ut. Integer.',
   },
   {
-    name: "William P. Fuller",
+    name: 'William P. Fuller',
     bio:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi mauris, ornare vitae leo a, aliquet bibendum diam. Vestibulum eleifend nisi diam, nec ornare massa pharetra in. Praesent dictum felis dapibus tristique posuere. Phasellus consectetur neque condimentum leo porttitor, at pretium velit vulputate. Nam euismod nisi tincidunt libero consectetur, ut consectetur urna luctus. Quisque aliquam ante a urna hendrerit condimentum. Sed sed viverra ex, non aliquam ligula. Proin quam enim, placerat vel risus in, gravida venenatis lectus. Ut rutrum efficitur nibh ac ullamcorper. Maecenas mattis neque ac diam faucibus consectetur. Donec tristique elit lorem, eget tempus dolor rhoncus ut. Integer.",
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi mauris, ornare vitae leo a, aliquet bibendum diam. Vestibulum eleifend nisi diam, nec ornare massa pharetra in. Praesent dictum felis dapibus tristique posuere. Phasellus consectetur neque condimentum leo porttitor, at pretium velit vulputate. Nam euismod nisi tincidunt libero consectetur, ut consectetur urna luctus. Quisque aliquam ante a urna hendrerit condimentum. Sed sed viverra ex, non aliquam ligula. Proin quam enim, placerat vel risus in, gravida venenatis lectus. Ut rutrum efficitur nibh ac ullamcorper. Maecenas mattis neque ac diam faucibus consectetur. Donec tristique elit lorem, eget tempus dolor rhoncus ut. Integer.',
   },
   {
-    name: "Ernest M. and Jean M.  Howell",
+    name: 'Ernest M. and Jean M.  Howell',
     bio:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi mauris, ornare vitae leo a, aliquet bibendum diam. Vestibulum eleifend nisi diam, nec ornare massa pharetra in. Praesent dictum felis dapibus tristique posuere. Phasellus consectetur neque condimentum leo porttitor, at pretium velit vulputate. Nam euismod nisi tincidunt libero consectetur, ut consectetur urna luctus. Quisque aliquam ante a urna hendrerit condimentum. Sed sed viverra ex, non aliquam ligula. Proin quam enim, placerat vel risus in, gravida venenatis lectus. Ut rutrum efficitur nibh ac ullamcorper. Maecenas mattis neque ac diam faucibus consectetur. Donec tristique elit lorem, eget tempus dolor rhoncus ut. Integer.",
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi mauris, ornare vitae leo a, aliquet bibendum diam. Vestibulum eleifend nisi diam, nec ornare massa pharetra in. Praesent dictum felis dapibus tristique posuere. Phasellus consectetur neque condimentum leo porttitor, at pretium velit vulputate. Nam euismod nisi tincidunt libero consectetur, ut consectetur urna luctus. Quisque aliquam ante a urna hendrerit condimentum. Sed sed viverra ex, non aliquam ligula. Proin quam enim, placerat vel risus in, gravida venenatis lectus. Ut rutrum efficitur nibh ac ullamcorper. Maecenas mattis neque ac diam faucibus consectetur. Donec tristique elit lorem, eget tempus dolor rhoncus ut. Integer.',
   },
   {
-    name: "Kenneth I. Juster",
+    name: 'Kenneth I. Juster',
     bio:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi mauris, ornare vitae leo a, aliquet bibendum diam. Vestibulum eleifend nisi diam, nec ornare massa pharetra in. Praesent dictum felis dapibus tristique posuere. Phasellus consectetur neque condimentum leo porttitor, at pretium velit vulputate. Nam euismod nisi tincidunt libero consectetur, ut consectetur urna luctus. Quisque aliquam ante a urna hendrerit condimentum. Sed sed viverra ex, non aliquam ligula. Proin quam enim, placerat vel risus in, gravida venenatis lectus. Ut rutrum efficitur nibh ac ullamcorper. Maecenas mattis neque ac diam faucibus consectetur. Donec tristique elit lorem, eget tempus dolor rhoncus ut. Integer.",
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi mauris, ornare vitae leo a, aliquet bibendum diam. Vestibulum eleifend nisi diam, nec ornare massa pharetra in. Praesent dictum felis dapibus tristique posuere. Phasellus consectetur neque condimentum leo porttitor, at pretium velit vulputate. Nam euismod nisi tincidunt libero consectetur, ut consectetur urna luctus. Quisque aliquam ante a urna hendrerit condimentum. Sed sed viverra ex, non aliquam ligula. Proin quam enim, placerat vel risus in, gravida venenatis lectus. Ut rutrum efficitur nibh ac ullamcorper. Maecenas mattis neque ac diam faucibus consectetur. Donec tristique elit lorem, eget tempus dolor rhoncus ut. Integer.',
   },
   {
-    name: "Tim Kochis",
+    name: 'Tim Kochis',
     bio:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi mauris, ornare vitae leo a, aliquet bibendum diam. Vestibulum eleifend nisi diam, nec ornare massa pharetra in. Praesent dictum felis dapibus tristique posuere. Phasellus consectetur neque condimentum leo porttitor, at pretium velit vulputate. Nam euismod nisi tincidunt libero consectetur, ut consectetur urna luctus. Quisque aliquam ante a urna hendrerit condimentum. Sed sed viverra ex, non aliquam ligula. Proin quam enim, placerat vel risus in, gravida venenatis lectus. Ut rutrum efficitur nibh ac ullamcorper. Maecenas mattis neque ac diam faucibus consectetur. Donec tristique elit lorem, eget tempus dolor rhoncus ut. Integer.",
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi mauris, ornare vitae leo a, aliquet bibendum diam. Vestibulum eleifend nisi diam, nec ornare massa pharetra in. Praesent dictum felis dapibus tristique posuere. Phasellus consectetur neque condimentum leo porttitor, at pretium velit vulputate. Nam euismod nisi tincidunt libero consectetur, ut consectetur urna luctus. Quisque aliquam ante a urna hendrerit condimentum. Sed sed viverra ex, non aliquam ligula. Proin quam enim, placerat vel risus in, gravida venenatis lectus. Ut rutrum efficitur nibh ac ullamcorper. Maecenas mattis neque ac diam faucibus consectetur. Donec tristique elit lorem, eget tempus dolor rhoncus ut. Integer.',
   },
   {
-    name: "Richard Lamb ",
+    name: 'Richard Lamb ',
     bio:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi mauris, ornare vitae leo a, aliquet bibendum diam. Vestibulum eleifend nisi diam, nec ornare massa pharetra in. Praesent dictum felis dapibus tristique posuere. Phasellus consectetur neque condimentum leo porttitor, at pretium velit vulputate. Nam euismod nisi tincidunt libero consectetur, ut consectetur urna luctus. Quisque aliquam ante a urna hendrerit condimentum. Sed sed viverra ex, non aliquam ligula. Proin quam enim, placerat vel risus in, gravida venenatis lectus. Ut rutrum efficitur nibh ac ullamcorper. Maecenas mattis neque ac diam faucibus consectetur. Donec tristique elit lorem, eget tempus dolor rhoncus ut. Integer.",
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi mauris, ornare vitae leo a, aliquet bibendum diam. Vestibulum eleifend nisi diam, nec ornare massa pharetra in. Praesent dictum felis dapibus tristique posuere. Phasellus consectetur neque condimentum leo porttitor, at pretium velit vulputate. Nam euismod nisi tincidunt libero consectetur, ut consectetur urna luctus. Quisque aliquam ante a urna hendrerit condimentum. Sed sed viverra ex, non aliquam ligula. Proin quam enim, placerat vel risus in, gravida venenatis lectus. Ut rutrum efficitur nibh ac ullamcorper. Maecenas mattis neque ac diam faucibus consectetur. Donec tristique elit lorem, eget tempus dolor rhoncus ut. Integer.',
   },
   {
-    name: "Lan Thuc and Nga Le",
+    name: 'Lan Thuc and Nga Le',
     bio:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi mauris, ornare vitae leo a, aliquet bibendum diam. Vestibulum eleifend nisi diam, nec ornare massa pharetra in. Praesent dictum felis dapibus tristique posuere. Phasellus consectetur neque condimentum leo porttitor, at pretium velit vulputate. Nam euismod nisi tincidunt libero consectetur, ut consectetur urna luctus. Quisque aliquam ante a urna hendrerit condimentum. Sed sed viverra ex, non aliquam ligula. Proin quam enim, placerat vel risus in, gravida venenatis lectus. Ut rutrum efficitur nibh ac ullamcorper. Maecenas mattis neque ac diam faucibus consectetur. Donec tristique elit lorem, eget tempus dolor rhoncus ut. Integer.",
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi mauris, ornare vitae leo a, aliquet bibendum diam. Vestibulum eleifend nisi diam, nec ornare massa pharetra in. Praesent dictum felis dapibus tristique posuere. Phasellus consectetur neque condimentum leo porttitor, at pretium velit vulputate. Nam euismod nisi tincidunt libero consectetur, ut consectetur urna luctus. Quisque aliquam ante a urna hendrerit condimentum. Sed sed viverra ex, non aliquam ligula. Proin quam enim, placerat vel risus in, gravida venenatis lectus. Ut rutrum efficitur nibh ac ullamcorper. Maecenas mattis neque ac diam faucibus consectetur. Donec tristique elit lorem, eget tempus dolor rhoncus ut. Integer.',
   },
   {
-    name: "Gerald P. Martin",
+    name: 'Gerald P. Martin',
     bio:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi mauris, ornare vitae leo a, aliquet bibendum diam. Vestibulum eleifend nisi diam, nec ornare massa pharetra in. Praesent dictum felis dapibus tristique posuere. Phasellus consectetur neque condimentum leo porttitor, at pretium velit vulputate. Nam euismod nisi tincidunt libero consectetur, ut consectetur urna luctus. Quisque aliquam ante a urna hendrerit condimentum. Sed sed viverra ex, non aliquam ligula. Proin quam enim, placerat vel risus in, gravida venenatis lectus. Ut rutrum efficitur nibh ac ullamcorper. Maecenas mattis neque ac diam faucibus consectetur. Donec tristique elit lorem, eget tempus dolor rhoncus ut. Integer.",
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi mauris, ornare vitae leo a, aliquet bibendum diam. Vestibulum eleifend nisi diam, nec ornare massa pharetra in. Praesent dictum felis dapibus tristique posuere. Phasellus consectetur neque condimentum leo porttitor, at pretium velit vulputate. Nam euismod nisi tincidunt libero consectetur, ut consectetur urna luctus. Quisque aliquam ante a urna hendrerit condimentum. Sed sed viverra ex, non aliquam ligula. Proin quam enim, placerat vel risus in, gravida venenatis lectus. Ut rutrum efficitur nibh ac ullamcorper. Maecenas mattis neque ac diam faucibus consectetur. Donec tristique elit lorem, eget tempus dolor rhoncus ut. Integer.',
   },
   {
-    name: "William McDougal ",
+    name: 'William McDougal ',
     bio:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi mauris, ornare vitae leo a, aliquet bibendum diam. Vestibulum eleifend nisi diam, nec ornare massa pharetra in. Praesent dictum felis dapibus tristique posuere. Phasellus consectetur neque condimentum leo porttitor, at pretium velit vulputate. Nam euismod nisi tincidunt libero consectetur, ut consectetur urna luctus. Quisque aliquam ante a urna hendrerit condimentum. Sed sed viverra ex, non aliquam ligula. Proin quam enim, placerat vel risus in, gravida venenatis lectus. Ut rutrum efficitur nibh ac ullamcorper. Maecenas mattis neque ac diam faucibus consectetur. Donec tristique elit lorem, eget tempus dolor rhoncus ut. Integer.",
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi mauris, ornare vitae leo a, aliquet bibendum diam. Vestibulum eleifend nisi diam, nec ornare massa pharetra in. Praesent dictum felis dapibus tristique posuere. Phasellus consectetur neque condimentum leo porttitor, at pretium velit vulputate. Nam euismod nisi tincidunt libero consectetur, ut consectetur urna luctus. Quisque aliquam ante a urna hendrerit condimentum. Sed sed viverra ex, non aliquam ligula. Proin quam enim, placerat vel risus in, gravida venenatis lectus. Ut rutrum efficitur nibh ac ullamcorper. Maecenas mattis neque ac diam faucibus consectetur. Donec tristique elit lorem, eget tempus dolor rhoncus ut. Integer.',
   },
   {
-    name: "Susan J. Pharr",
+    name: 'Susan J. Pharr',
     bio:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi mauris, ornare vitae leo a, aliquet bibendum diam. Vestibulum eleifend nisi diam, nec ornare massa pharetra in. Praesent dictum felis dapibus tristique posuere. Phasellus consectetur neque condimentum leo porttitor, at pretium velit vulputate. Nam euismod nisi tincidunt libero consectetur, ut consectetur urna luctus. Quisque aliquam ante a urna hendrerit condimentum. Sed sed viverra ex, non aliquam ligula. Proin quam enim, placerat vel risus in, gravida venenatis lectus. Ut rutrum efficitur nibh ac ullamcorper. Maecenas mattis neque ac diam faucibus consectetur. Donec tristique elit lorem, eget tempus dolor rhoncus ut. Integer.",
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi mauris, ornare vitae leo a, aliquet bibendum diam. Vestibulum eleifend nisi diam, nec ornare massa pharetra in. Praesent dictum felis dapibus tristique posuere. Phasellus consectetur neque condimentum leo porttitor, at pretium velit vulputate. Nam euismod nisi tincidunt libero consectetur, ut consectetur urna luctus. Quisque aliquam ante a urna hendrerit condimentum. Sed sed viverra ex, non aliquam ligula. Proin quam enim, placerat vel risus in, gravida venenatis lectus. Ut rutrum efficitur nibh ac ullamcorper. Maecenas mattis neque ac diam faucibus consectetur. Donec tristique elit lorem, eget tempus dolor rhoncus ut. Integer.',
   },
   {
-    name: "Missie Rennie and Zach Taylor",
+    name: 'Missie Rennie and Zach Taylor',
     bio:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi mauris, ornare vitae leo a, aliquet bibendum diam. Vestibulum eleifend nisi diam, nec ornare massa pharetra in. Praesent dictum felis dapibus tristique posuere. Phasellus consectetur neque condimentum leo porttitor, at pretium velit vulputate. Nam euismod nisi tincidunt libero consectetur, ut consectetur urna luctus. Quisque aliquam ante a urna hendrerit condimentum. Sed sed viverra ex, non aliquam ligula. Proin quam enim, placerat vel risus in, gravida venenatis lectus. Ut rutrum efficitur nibh ac ullamcorper. Maecenas mattis neque ac diam faucibus consectetur. Donec tristique elit lorem, eget tempus dolor rhoncus ut. Integer.",
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi mauris, ornare vitae leo a, aliquet bibendum diam. Vestibulum eleifend nisi diam, nec ornare massa pharetra in. Praesent dictum felis dapibus tristique posuere. Phasellus consectetur neque condimentum leo porttitor, at pretium velit vulputate. Nam euismod nisi tincidunt libero consectetur, ut consectetur urna luctus. Quisque aliquam ante a urna hendrerit condimentum. Sed sed viverra ex, non aliquam ligula. Proin quam enim, placerat vel risus in, gravida venenatis lectus. Ut rutrum efficitur nibh ac ullamcorper. Maecenas mattis neque ac diam faucibus consectetur. Donec tristique elit lorem, eget tempus dolor rhoncus ut. Integer.',
   },
   {
-    name: "Thomas and Shelagh Rohlen",
+    name: 'Thomas and Shelagh Rohlen',
     bio:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi mauris, ornare vitae leo a, aliquet bibendum diam. Vestibulum eleifend nisi diam, nec ornare massa pharetra in. Praesent dictum felis dapibus tristique posuere. Phasellus consectetur neque condimentum leo porttitor, at pretium velit vulputate. Nam euismod nisi tincidunt libero consectetur, ut consectetur urna luctus. Quisque aliquam ante a urna hendrerit condimentum. Sed sed viverra ex, non aliquam ligula. Proin quam enim, placerat vel risus in, gravida venenatis lectus. Ut rutrum efficitur nibh ac ullamcorper. Maecenas mattis neque ac diam faucibus consectetur. Donec tristique elit lorem, eget tempus dolor rhoncus ut. Integer.",
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi mauris, ornare vitae leo a, aliquet bibendum diam. Vestibulum eleifend nisi diam, nec ornare massa pharetra in. Praesent dictum felis dapibus tristique posuere. Phasellus consectetur neque condimentum leo porttitor, at pretium velit vulputate. Nam euismod nisi tincidunt libero consectetur, ut consectetur urna luctus. Quisque aliquam ante a urna hendrerit condimentum. Sed sed viverra ex, non aliquam ligula. Proin quam enim, placerat vel risus in, gravida venenatis lectus. Ut rutrum efficitur nibh ac ullamcorper. Maecenas mattis neque ac diam faucibus consectetur. Donec tristique elit lorem, eget tempus dolor rhoncus ut. Integer.',
   },
   {
-    name: "Suzanne E. Siskel",
+    name: 'Suzanne E. Siskel',
     bio:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi mauris, ornare vitae leo a, aliquet bibendum diam. Vestibulum eleifend nisi diam, nec ornare massa pharetra in. Praesent dictum felis dapibus tristique posuere. Phasellus consectetur neque condimentum leo porttitor, at pretium velit vulputate. Nam euismod nisi tincidunt libero consectetur, ut consectetur urna luctus. Quisque aliquam ante a urna hendrerit condimentum. Sed sed viverra ex, non aliquam ligula. Proin quam enim, placerat vel risus in, gravida venenatis lectus. Ut rutrum efficitur nibh ac ullamcorper. Maecenas mattis neque ac diam faucibus consectetur. Donec tristique elit lorem, eget tempus dolor rhoncus ut. Integer.",
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi mauris, ornare vitae leo a, aliquet bibendum diam. Vestibulum eleifend nisi diam, nec ornare massa pharetra in. Praesent dictum felis dapibus tristique posuere. Phasellus consectetur neque condimentum leo porttitor, at pretium velit vulputate. Nam euismod nisi tincidunt libero consectetur, ut consectetur urna luctus. Quisque aliquam ante a urna hendrerit condimentum. Sed sed viverra ex, non aliquam ligula. Proin quam enim, placerat vel risus in, gravida venenatis lectus. Ut rutrum efficitur nibh ac ullamcorper. Maecenas mattis neque ac diam faucibus consectetur. Donec tristique elit lorem, eget tempus dolor rhoncus ut. Integer.',
   },
   {
-    name: "Haydn Williams ",
+    name: 'Haydn Williams ',
     bio:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi mauris, ornare vitae leo a, aliquet bibendum diam. Vestibulum eleifend nisi diam, nec ornare massa pharetra in. Praesent dictum felis dapibus tristique posuere. Phasellus consectetur neque condimentum leo porttitor, at pretium velit vulputate. Nam euismod nisi tincidunt libero consectetur, ut consectetur urna luctus. Quisque aliquam ante a urna hendrerit condimentum. Sed sed viverra ex, non aliquam ligula. Proin quam enim, placerat vel risus in, gravida venenatis lectus. Ut rutrum efficitur nibh ac ullamcorper. Maecenas mattis neque ac diam faucibus consectetur. Donec tristique elit lorem, eget tempus dolor rhoncus ut. Integer.",
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi mauris, ornare vitae leo a, aliquet bibendum diam. Vestibulum eleifend nisi diam, nec ornare massa pharetra in. Praesent dictum felis dapibus tristique posuere. Phasellus consectetur neque condimentum leo porttitor, at pretium velit vulputate. Nam euismod nisi tincidunt libero consectetur, ut consectetur urna luctus. Quisque aliquam ante a urna hendrerit condimentum. Sed sed viverra ex, non aliquam ligula. Proin quam enim, placerat vel risus in, gravida venenatis lectus. Ut rutrum efficitur nibh ac ullamcorper. Maecenas mattis neque ac diam faucibus consectetur. Donec tristique elit lorem, eget tempus dolor rhoncus ut. Integer.',
   },
 ];
 
-const modal = $("#modal");
+const modal = $('#modal');
 
 function hideModal() {
-  modal.css({ display: "none" });
-  $("#modal-video").css({ display: "none" });
-  $("#modal-bio").css({ display: "none" });
+  modal.css({ display: 'none' });
+  $('#modal-video').css({ display: 'none' });
+  $('#modal-bio').css({ display: 'none' });
 }
 hideModal();
 
@@ -128,40 +128,40 @@ function createBox(col, row) {
   const left = col * COL_OFFSET + LEFT_OFFSET;
   const top = row * ROW_OFFSET + TOP_OFFET;
 
-  const el = $('<div class="box"></div>');
-  el.css({ left: left + "px", top: top + "px" });
+  const el = $('<div class='box'></div>');
+  el.css({ left: left + 'px', top: top + 'px' });
 
-  const imgEl = $('<img src="art.png" />');
+  const imgEl = $('<img src='art.png' />');
   imgEl.css({
-    top: top * -1 + "px",
-    left: left * -1 + "px",
+    top: top * -1 + 'px',
+    left: left * -1 + 'px',
   });
   el.append(imgEl);
-  const textEl = $("<p></p>");
+  const textEl = $('<p></p>');
   textEl.text(person.name);
   el.append(textEl);
 
-  el.on("click", () => {
-    $("#modal-name").text(person.name);
+  el.on('click', () => {
+    $('#modal-name').text(person.name);
     if (person.bio) {
-      const bioEl = $("#modal-bio");
+      const bioEl = $('#modal-bio');
       bioEl.text(person.bio);
-      bioEl.css({ display: "block" });
+      bioEl.css({ display: 'block' });
     }
     if (person.video) {
-      const videoEl = $("#modal-video");
-      const videoId = person.video.split("?v=")[1];
-      videoEl.on("load", () => {
-        videoEl.css({ display: "block" });
-        videoEl.unbind("load");
+      const videoEl = $('#modal-video');
+      const videoId = person.video.split('?v=')[1];
+      videoEl.on('load', () => {
+        videoEl.css({ display: 'block' });
+        videoEl.unbind('load');
       });
-      videoEl.attr("src", `https://www.youtube.com/embed/${videoId}`);
+      videoEl.attr('src', `https://www.youtube.com/embed/${videoId}`);
     }
-    modal.css({ display: "block" });
+    modal.css({ display: 'block' });
   });
   return el;
 }
-const rootImage = $("#image");
+const rootImage = $('#image');
 for (let row = 0; row < NUM_ROWS; row++) {
   for (let col = 0; col < NUM_COLS; col++) {
     const box = createBox(col, row);
@@ -172,7 +172,7 @@ for (let row = 0; row < NUM_ROWS; row++) {
 }
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+var span = document.getElementsByClassName('close')[0];
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function () {
