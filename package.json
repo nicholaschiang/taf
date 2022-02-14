@@ -1,10 +1,23 @@
 {
+  "private": true,
   "name": "taf",
-  "version": "1.0.0",
-  "main": "index.js",
-  "author": "Nicholas Chiang <nicholas.h.chiang@gmail.com>",
-  "license": "MIT",
+  "version": "0.0.0",
+  "author": "Nicholas Chiang <jobs@nicholaschiang.com>",
+  "license": "AGPL-3.0",
   "packageManager": "yarn@3.1.1",
+  "homepage": "https://github.com/nicholaschiang/taf#readme",
+  "scripts": {
+    "start": "serve",
+    "lint": "eslint",
+    "style": "pretty-quick"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicholaschiang/taf.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nicholaschiang/taf/issues"
+  },
   "devDependencies": {
     "eslint": "^8.9.0",
     "eslint-config-airbnb": "^19.0.4",
