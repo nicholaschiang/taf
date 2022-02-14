@@ -7,6 +7,17 @@ const LEFT_OFFSET = 16;
 const COL_OFFSET = 105;
 const ROW_OFFSET = 105;
 
+let people;
+$.ajax({
+  'async': false,
+  'global': false,
+  'url': '/people.json',
+  'dataType': 'json',
+  'success': (data) => {
+    people = data;
+  }
+});
+
 const modal = $('#modal');
 
 function hideModal() {
@@ -25,7 +36,7 @@ function createBox(col, row) {
   const left = col * COL_OFFSET + LEFT_OFFSET;
   const top = row * ROW_OFFSET + TOP_OFFET;
 
-  const el = $('<div class='box'></div>');
+  const el = $('<div class="box"></div>');
   el.css({ left: left + 'px', top: top + 'px' });
 
   const imgEl = $('<img src='art.png' />');
