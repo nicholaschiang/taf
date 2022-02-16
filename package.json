@@ -7,6 +7,7 @@
   "packageManager": "yarn@3.1.1",
   "homepage": "https://github.com/nicholaschiang/taf#readme",
   "scripts": {
+    "dev": "serve",
     "start": "serve",
     "lint": "eslint",
     "style": "pretty-quick"
