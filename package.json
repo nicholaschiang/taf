@@ -9,6 +9,7 @@
   "scripts": {
     "dev": "serve",
     "start": "serve",
+    "build": "zip -r build.zip build",
     "lint": "eslint",
     "style": "pretty-quick"
   },
