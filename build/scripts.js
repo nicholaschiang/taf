@@ -7,23 +7,12 @@ const LEFT_OFFSET = 16;
 const COL_OFFSET = 105;
 const ROW_OFFSET = 105;
 
-let people;
-$.ajax({
-  'async': false,
-  'global': false,
-  'url': '/people.json',
-  'dataType': 'json',
-  'success': (data) => {
-    people = data;
-  },
-});
-
 const modalEl = $('#modal');
 const videoWrapperEl = $('#modal-video-wrapper');
 const bioEl = $('#modal-bio');
 
 function createBox(col, row) {
-  const person = people[col + row * NUM_COLS];
+  const person = window.people[col + row * NUM_COLS];
   if (!person) return;
 
   const left = col * COL_OFFSET + LEFT_OFFSET;
