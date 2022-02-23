@@ -145,17 +145,11 @@ for (let row = 0; row < NUM_ROWS; row++) {
   }
 }
 
-// Get the <span> element that closes the modal
-const span = $('#modal button.close');
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function () {
+$('button.close')[0].onclick = function () {
   [modalEl, bioEl, videoWrapperEl].forEach((e) => e.removeClass('visible'));
 };
-
-// When the user clicks anywhere outside of the modal, close it
 window.onclick = function (event) {
-  if (event.target == modal[0]) {
+  if (event.target === modalEl[0]) {
     [modalEl, bioEl, videoWrapperEl].forEach((e) => e.removeClass('visible'));
   }
 };
