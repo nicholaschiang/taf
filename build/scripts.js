@@ -79,7 +79,7 @@ const people = [
   {
     name: 'Haydn Williams ',
     bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi mauris, ornare vitae leo a, aliquet bibendum diam. Vestibulum eleifend nisi diam, nec ornare massa pharetra in. Praesent dictum felis dapibus tristique posuere. Phasellus consectetur neque condimentum leo porttitor, at pretium velit vulputate. Nam euismod nisi tincidunt libero consectetur, ut consectetur urna luctus. Quisque aliquam ante a urna hendrerit condimentum. Sed sed viverra ex, non aliquam ligula. Proin quam enim, placerat vel risus in, gravida venenatis lectus. Ut rutrum efficitur nibh ac ullamcorper. Maecenas mattis neque ac diam faucibus consectetur. Donec tristique elit lorem, eget tempus dolor rhoncus ut. Integer.'
-  }
+  },
 ];
 
 const NUM_ROWS = 6;
