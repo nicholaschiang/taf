@@ -1,37 +1,3 @@
-::selection {
-  background: #79ffe1;
-  color: black;
-}
-
-#donors-header {
-  padding: 0;
-  margin: 0;
-}
-
-#donors-header h1 {
-  font-size: 28px;
-  font-weight: bold;
-  font-family:
-    'Kontrast', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
-    'Droid Sans', 'Helvetica Neue', sans-serif;
-  text-align: center;
-  margin: 48px 0 24px;
-}
-
-#donors-header p {
-  color: #666;
-  font-size: 14px;
-  font-weight: normal;
-  font-family:
-    'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
-    'Droid Sans', 'Helvetica Neue', sans-serif;
-  text-align: center;
-  line-height: 1.45;
-  margin: 12px 0;
-}
-
 #image {
   height: 648px;
   width: 1270px;
@@ -84,7 +50,7 @@
   cursor: pointer;
 }
 
-#modal {
+.modal {
   visibility: hidden;
   position: fixed;
   z-index: 1000;
@@ -98,11 +64,11 @@
   background-color: rgba(0, 0, 0, 0.32);
 }
 
-#modal.visible {
+.modal.visible {
   visibility: visible;
 }
 
-#modal-content {
+.modal-content {
   position: relative;
   background-color: #fefefe;
   left: 50%;
@@ -121,12 +87,12 @@
   border-radius: 12px;
 }
 
-#modal.visible > #modal-content {
+.modal.visible > .modal-content {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
 
-#modal-content > h2 {
+.modal-content > h2 {
   font-size: 28px;
   font-weight: bold;
   font-family:
@@ -137,7 +103,7 @@
   margin: 0 0 12px;
 }
 
-#modal-content > p {
+.modal-content > p {
   color: #666;
   font-size: 14px;
   font-weight: normal;
@@ -150,7 +116,7 @@
   display: none;
 }
 
-#modal-content > p.visible {
+.modal-content > p.visible {
   display: block;
 }
 
@@ -201,7 +167,7 @@
   display: block;
 }
 
-#modal-close {
+button.close {
   background: white;
   transition: background 200ms ease;
   position: absolute;
@@ -219,17 +185,17 @@
   padding: 8px;
 }
 
-#modal-close > svg {
+button.close > svg {
   fill: #999;
   transition: fill 200ms ease;
 }
 
-#modal-close:hover,
-#modal-close:focus {
+button.close:hover,
+button.close:focus {
   background: #eaeaea;
 }
 
-#modal-close:hover > svg,
-#modal-close:focus > svg {
+button.close:hover > svg,
+button.close:focus > svg {
   fill: #666;
 }
